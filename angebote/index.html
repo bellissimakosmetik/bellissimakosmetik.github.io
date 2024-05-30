@@ -23,10 +23,10 @@
 <meta property="og:description"
       content="Bellissima Kosmetik" />
 <meta property="og:site_name" content="Bellissima" />
-<meta property="og:url" content="https://bialomazur.github.io/angebote/" />
+<meta property="og:url" content="/angebote/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/" />
-<meta property="og:image:secure_url" content="https://bialomazur.github.io" />
+<meta property="og:image:secure_url" content="" />
 <meta property="og:type" content="article" />
 
 
@@ -48,7 +48,7 @@
          class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
             <a href="/" class="flex items-center text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="https://bialomazur.github.io/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
+                <img src="/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
                 <div class="row font-black tracking-tight transition-colors group-hover:text-gray-600" style="font-family: 'Allura'; font-size: 2rem; margin-left: 10px;">
                     Bellissima
                 </div>
@@ -70,15 +70,65 @@
             
             
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/" title="Bellissima">
-                Über uns
+                href="/" title="Home">
+                Home
             </a>
             
             
             
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline">
+                    <span>Angebote</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                         class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                     x-transition:enter-start="transform opacity-0 scale-95"
+                     x-transition:enter-end="transform opacity-100 scale-100"
+                     x-transition:leave="transition ease-in duration-75"
+                     x-transition:leave-start="transform opacity-100 scale-100"
+                     x-transition:leave-end="transform opacity-0 scale-95"
+                     class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-primary-900 bg-white rounded-md shadow">
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/japanese-head-spa/">Japanese Head Spaaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/apparative-behandlungen/">Apparative Behandlungenaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/make-up/">Permanent Make-Upaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/massage/">Massageaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/enthaarung/">Haarentfernungaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/handfu%C3%9Fpflege/">Hand- und Fußpflegeaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/greenpeel/">Green-Peel Behandlungenaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/gesichtsbehandlungen/">Gesichtsbehandlungenaaa</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/angebote/" title="Angebotes">
-                Angebote
+                href="/contact/" title="Kontakt">
+                Kontakt
             </a>
             
             
@@ -96,7 +146,7 @@
         <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/makeup/tages-makeup/">
+                <a href="/angebote/makeup/tages-makeup/">
                     
                     
                     
@@ -110,7 +160,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/makeup/tages-makeup/"
+                        <a href="/angebote/makeup/tages-makeup/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Beauty &amp; More
                         </a>
@@ -139,7 +189,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/make-up/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">make-up</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -153,7 +204,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-augen/">
+                <a href="/angebote/makeup/permanent-makeup-augen/">
                     
                     
                     
@@ -167,7 +218,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-augen/"
+                        <a href="/angebote/makeup/permanent-makeup-augen/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Permanent Make-Up Augen
                         </a>
@@ -193,7 +244,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/make-up/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">make-up</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -207,7 +259,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-augenbrauen/">
+                <a href="/angebote/makeup/permanent-makeup-augenbrauen/">
                     
                     
                     
@@ -221,7 +273,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-augenbrauen/"
+                        <a href="/angebote/makeup/permanent-makeup-augenbrauen/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Permanent Make-Up Augenbrauen
                         </a>
@@ -246,7 +298,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/make-up/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">make-up</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -260,7 +313,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/headspa/head-spa-beauty/">
+                <a href="/angebote/headspa/head-spa-beauty/">
                     
                     
                     
@@ -274,7 +327,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/headspa/head-spa-beauty/"
+                        <a href="/angebote/headspa/head-spa-beauty/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Head Spa Beauty
                         </a>
@@ -302,7 +355,9 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/japanese-head-spa/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Japanese-Head-Spa</a>, <a href="/tags/massage/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Massage</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -318,7 +373,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/enthaarung/dauerhafte-haarentfernung/">
+                <a href="/angebote/enthaarung/dauerhafte-haarentfernung/">
                     
                     
                     
@@ -332,7 +387,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/enthaarung/dauerhafte-haarentfernung/"
+                        <a href="/angebote/enthaarung/dauerhafte-haarentfernung/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Dauerhafte Haarentfernung
                         </a>
@@ -371,7 +426,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/enthaarung/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Enthaarung</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -387,7 +443,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/enthaarung/depilation-warmwachs/">
+                <a href="/angebote/enthaarung/depilation-warmwachs/">
                     
                     
                     
@@ -401,7 +457,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/enthaarung/depilation-warmwachs/"
+                        <a href="/angebote/enthaarung/depilation-warmwachs/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Depilation Warmwachs
                         </a>
@@ -433,7 +489,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/enthaarung/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Enthaarung</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -447,7 +504,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/headspa/head-spa-harmony/">
+                <a href="/angebote/headspa/head-spa-harmony/">
                     
                     
                     
@@ -461,7 +518,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/headspa/head-spa-harmony/"
+                        <a href="/angebote/headspa/head-spa-harmony/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Head Spa Harmonie
                         </a>
@@ -489,7 +546,9 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/japanese-head-spa/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Japanese-Head-Spa</a>, <a href="/tags/massage/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">Massage</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -505,7 +564,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/skincare/microneedling/">
+                <a href="/angebote/skincare/microneedling/">
                     
                     
                     
@@ -519,7 +578,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/skincare/microneedling/"
+                        <a href="/angebote/skincare/microneedling/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Microneedling
                         </a>
@@ -543,7 +602,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/skin-care/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">skin-care</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">
@@ -557,7 +617,7 @@
             </div>
             
             <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
-                <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-lippen/">
+                <a href="/angebote/makeup/permanent-makeup-lippen/">
                     
                     
                     
@@ -571,7 +631,7 @@
                 <div class="p-6">
 
                     <div class="flex-1">
-                        <a href="https://bialomazur.github.io/angebote/makeup/permanent-makeup-lippen/"
+                        <a href="/angebote/makeup/permanent-makeup-lippen/"
                            class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-500 hover:underline">
                             Permanent Make-Up Lippen
                         </a>
@@ -595,7 +655,8 @@
                     <div class="flex pt-6 font-medium  dark:text-primary-100 text-md">
 
                         <span>
-                        </span>
+                        <a href="/tags/make-up/"
+                           class="inline-flex items-center rounded-md bg-gray-300 hover:bg-primary-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">make-up</a></span>
                     </div>
                     <div class="flex items-center mt-6">
                         <div class="flex-shrink-0">

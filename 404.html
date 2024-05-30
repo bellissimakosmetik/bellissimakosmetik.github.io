@@ -23,10 +23,10 @@
 <meta property="og:description"
       content="Bellissima Kosmetik" />
 <meta property="og:site_name" content="Bellissima" />
-<meta property="og:url" content="https://bialomazur.github.io/404.html" />
+<meta property="og:url" content="/404.html" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/" />
-<meta property="og:image:secure_url" content="https://bialomazur.github.io" />
+<meta property="og:image:secure_url" content="" />
 <meta property="og:type" content="article" />
 
 
@@ -48,12 +48,11 @@
          class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
             <a href="/" class="flex items-center text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="https://bialomazur.github.io/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
+                <img src="/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
                 <div class="row font-black tracking-tight transition-colors group-hover:text-gray-600" style="font-family: 'Allura'; font-size: 2rem; margin-left: 10px;">
                     Bellissima
                 </div>
             </a>
-
             <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
                 <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                     <path x-show="!open" fill-rule="evenodd"
@@ -69,22 +68,41 @@
              class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
             
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/" title="Bellissima">
-                Über uns
-            </a>
+                
+                <a class="px-2.5 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white focus:shadow-outline "
+                   href="/" title="Home">
+                    Home
+                </a>
             
+                
+                <a class="px-2.5 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white focus:shadow-outline "
+                   href="/about/" title="Über uns">
+                    Über uns
+                </a>
             
+                
+                <a class="px-2.5 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white focus:shadow-outline "
+                   href="/contact/" title="Kontakt">
+                    Kontakt
+                </a>
             
-            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/angebote/" title="Angebotes">
-                Angebote
-            </a>
-            
-            
+            <div class="flex items-center px-4 gap-4">
+                
+                <a class="text-sm font-semibold rounded-lg hover:text-green-300 focus:text-white focus:shadow-outline"
+                   href="https://facebook.com/nusserstudios" title="facebook">
+                    <i class="fa-brands fa-facebook text-lg md:text-xl"></i>
+                </a>
+                
+                <a class="text-sm font-semibold rounded-lg hover:text-green-300 focus:text-white focus:shadow-outline"
+                   href="https://instagram.com/bellissima_rastatt" title="instagram">
+                    <i class="fa-brands fa-instagram text-lg md:text-xl"></i>
+                </a>
+                
+            </div>
         </nav>
     </div>
 </div>
+
     
 <main id="main">
     <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
@@ -93,14 +111,11 @@
                 404
             </h1>
             <p class="mb-4 text-3xl font-bold tracking-tight text-gray-900 md:text-4xl dark:text-white">
-                Ooooops, something&rsquo;s missing.
+                Ooooops, Diese Seite existiert nicht.
             </p>
-            <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">Sorry, we can't find that page.
-                You'll
-                find lots to explore on the home page. </p>
+
             <a href="/"
-                class="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">Back
-                to Homepage</a>
+                class="inline-flex text-white bg-primary-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4">Zur Homepage</a>
         </div>
     </div>
 </main>
@@ -152,8 +167,19 @@
             
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
+            <a href="/about" class="text-gray-400 hover:text-gray-300">
+                Über Uns
+            </a>
+            <a href="/impressum" class="text-gray-400 hover:text-gray-300">
+                Impressum & Datenschutz
+            </a>
+            <a href="/contact" class="text-gray-400 hover:text-gray-300">
+                Kontakt
+            </a>
+        </div>
+        <div class="flex justify-center mt-8 space-x-6">
             
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Facebook</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"
@@ -163,7 +189,7 @@
             </a>
             
             
-            <a href="#" class="text-gray-400 hover:text-gray-300">
+            <a href="https://instagram.com/bellissima_rastatt" class="text-gray-400 hover:text-gray-300">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fill-rule="evenodd"

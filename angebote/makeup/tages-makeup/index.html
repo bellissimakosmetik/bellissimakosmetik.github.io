@@ -23,10 +23,10 @@
 <meta property="og:description"
       content="Permanent Make-Up bietet eine langanhaltende Lösung zur Verbesserung und Betonung Ihrer natürlichen Schönheit. Erfahren Sie mehr über die verschiedenen Techniken und Preise für Augenbrauen, Augen und Lippen." />
 <meta property="og:site_name" content="Bellissima" />
-<meta property="og:url" content="https://bialomazur.github.io/angebote/makeup/tages-makeup/" />
+<meta property="og:url" content="/angebote/makeup/tages-makeup/" />
 <meta property="og:locale" content="en">
 <meta property="og:image" content="/../assets/images/global/permanent-makeup.jpg" />
-<meta property="og:image:secure_url" content="https://bialomazur.github.io/../assets/images/global/permanent-makeup.jpg" />
+<meta property="og:image:secure_url" content="../assets/images/global/permanent-makeup.jpg" />
 <meta property="og:type" content="article" />
 
 
@@ -48,7 +48,7 @@
          class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div class="flex flex-row items-center justify-between p-4">
             <a href="/" class="flex items-center text-gray-100 transition duration-1000 ease-in-out group">
-                <img src="https://bialomazur.github.io/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
+                <img src="/images/head-logo.png" class="h-8 mr-2 w-4" alt="logo">
                 <div class="row font-black tracking-tight transition-colors group-hover:text-gray-600" style="font-family: 'Allura'; font-size: 2rem; margin-left: 10px;">
                     Bellissima
                 </div>
@@ -70,15 +70,65 @@
             
             
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/" title="Bellissima">
-                Über uns
+                href="/" title="Home">
+                Home
             </a>
             
             
             
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline">
+                    <span>Angebote</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                         class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                     x-transition:enter-start="transform opacity-0 scale-95"
+                     x-transition:enter-end="transform opacity-100 scale-100"
+                     x-transition:leave="transition ease-in duration-75"
+                     x-transition:leave-start="transform opacity-100 scale-100"
+                     x-transition:leave-end="transform opacity-0 scale-95"
+                     class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-primary-900 bg-white rounded-md shadow">
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/japanese-head-spa/">Japanese Head Spaaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/apparative-behandlungen/">Apparative Behandlungenaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/make-up/">Permanent Make-Upaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/massage/">Massageaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/enthaarung/">Haarentfernungaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/handfu%C3%9Fpflege/">Hand- und Fußpflegeaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/greenpeel/">Green-Peel Behandlungenaaa</a>
+                        
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:shadow-outline"
+                           href="/tags/gesichtsbehandlungen/">Gesichtsbehandlungenaaa</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            
+            
             <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-green-300 focus:text-white  focus:shadow-outline"
-                href="https://bialomazur.github.io/angebote/" title="Angebotes">
-                Angebote
+                href="/contact/" title="Kontakt">
+                Kontakt
             </a>
             
             

@@ -2,58 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bialomazur.github.io/angebote/</loc>
+    <loc>/angebote/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/categories/beauty/</loc>
+    <loc>/angebote/permanent-make-up/permanent-makeup-augen/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/makeup/tages-makeup/</loc>
+    <loc>/angebote/beauty-and-more/augenbrauen/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/</loc>
+    <loc>/angebote/permanent-make-up/permanent-makeup-augenbrauen/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/categories/</loc>
+    <loc>/categories/beauty-and-more/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/makeup/permanent-makeup-augen/</loc>
+    <loc>/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/makeup/permanent-makeup-augenbrauen/</loc>
+    <loc>/angebote/beauty-and-more/makeup/</loc>
     <lastmod>2024-05-19T10:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/headspa/head-spa-beauty/</loc>
+    <loc>/categories/permanent-make-up/</loc>
+    <lastmod>2024-05-19T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/angebote/beauty-and-more/wimpern-faerben/</loc>
+    <lastmod>2024-05-19T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/angebote/japanese-head-spa/head-spa-beauty/</loc>
     <lastmod>2024-05-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/categories/massage/</loc>
+    <loc>/categories/japanese-head-spa/</loc>
     <lastmod>2024-05-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/contact/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <loc>/contact/</loc>
+    <lastmod>2023-08-12T09:36:20-05:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/enthaarung/dauerhafte-haarentfernung/</loc>
+    <loc>/about/</loc>
+    <lastmod>2022-10-30T15:34:06-05:00</lastmod>
+  </url><url>
+    <loc>/angebote/enthaarung/depilation-warmwachs/</loc>
     <lastmod>2022-06-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/enthaarung/depilation-warmwachs/</loc>
+    <loc>/categories/haar-entfernung/</loc>
     <lastmod>2022-06-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/categories/massage-japanese-head-spa/</loc>
-    <lastmod>2022-06-18T11:10:36+08:00</lastmod>
-  </url><url>
-    <loc>https://bialomazur.github.io/impressum/</loc>
+    <loc>/impressum/</loc>
     <lastmod>2021-12-18T11:10:36+08:00</lastmod>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/tags/</loc>
+    <loc>/categories/apparative-behandlungen/</loc>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/headspa/head-spa-harmony/</loc>
+    <loc>/angebote/apparative-behandlungen/bb-glow/</loc>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/skincare/microneedling/</loc>
+    <loc>/categories/casmara-behandlungen/</loc>
   </url><url>
-    <loc>https://bialomazur.github.io/angebote/makeup/permanent-makeup-lippen/</loc>
+    <loc>/angebote/enthaarung/dauerhafte-haarentfernung/</loc>
   </url><url>
-    <loc>https://bialomazur.github.io/series/</loc>
+    <loc>/angebote/gesichtsbehandlung/essential-detox/</loc>
   </url><url>
-    <loc>https://bialomazur.github.io/categories/skin-care/</loc>
+    <loc>/angebote/green-peel-behandlungen/frucht-saeure-peeling/</loc>
+  </url><url>
+    <loc>/categories/gesichtsbehandlungen/</loc>
+  </url><url>
+    <loc>/angebote/green-peel-behandlungen/classic/</loc>
+  </url><url>
+    <loc>/angebote/green-peel-behandlungen/energy/</loc>
+  </url><url>
+    <loc>/angebote/green-peel-behandlungen/fresh-up/</loc>
+  </url><url>
+    <loc>/categories/green-peel-behandlungen/</loc>
+  </url><url>
+    <loc>/categories/hand-und-fusspflege/</loc>
+  </url><url>
+    <loc>/angebote/apparative-behandlungen/ipl/</loc>
+  </url><url>
+    <loc>/angebote/japanese-head-spa/head-spa-harmony/</loc>
+  </url><url>
+    <loc>/angebote/beauty-and-more/hot-stone-massage/</loc>
+  </url><url>
+    <loc>/angebote/gesichtsbehandlung/hydrating/</loc>
+  </url><url>
+    <loc>/angebote/casmara-behandlungen/intensive-q-10/</loc>
+  </url><url>
+    <loc>/angebote/hand-und-fusspflege/kosmetische-fusspflege/</loc>
+  </url><url>
+    <loc>/angebote/permanent-make-up/permanent-makeup-lippen/</loc>
+  </url><url>
+    <loc>/angebote/hand-und-fusspflege/manikuere/</loc>
+  </url><url>
+    <loc>/angebote/beauty-and-more/massage/</loc>
+  </url><url>
+    <loc>/angebote/gesichtsbehandlung/mela-white/</loc>
+  </url><url>
+    <loc>/angebote/apparative-behandlungen/microdermabrasion/</loc>
+  </url><url>
+    <loc>/angebote/apparative-behandlungen/microneedling/</loc>
+  </url><url>
+    <loc>/angebote/casmara-behandlungen/ocean-miracle/</loc>
+  </url><url>
+    <loc>/angebote/gesichtsbehandlung/regulating-purifying/</loc>
+  </url><url>
+    <loc>/angebote/casmara-behandlungen/rgnerin/</loc>
+  </url><url>
+    <loc>/angebote/gesichtsbehandlung/sensitive/</loc>
+  </url><url>
+    <loc>/angebote/casmara-behandlungen/shine-control/</loc>
+  </url><url>
+    <loc>/angebote/casmara-behandlungen/skin-sensations/</loc>
+  </url><url>
+    <loc>/angebote/gesichtsbehandlung/vitality/</loc>
   </url>
 </urlset>
