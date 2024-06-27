@@ -2,27 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Japanese-Head-Spa on Bellissima</title>
-    <link>https://bellissima-rastatt.de/categories/japanese-head-spa/</link>
+    <link>/categories/japanese-head-spa/</link>
     <description>Recent content in Japanese-Head-Spa on Bellissima</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Otilia Bodeanu</copyright>
-    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://bellissima-rastatt.de/categories/japanese-head-spa/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="/categories/japanese-head-spa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Head Spa Harmonie</title>
-      <link>https://bellissima-rastatt.de/angebote/japanese-head-spa/head-spa-harmony/</link>
+      <link>/angebote/japanese-head-spa/head-spa-harmony/</link>
       <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>https://bellissima-rastatt.de/angebote/japanese-head-spa/head-spa-harmony/</guid>
+      <guid>/angebote/japanese-head-spa/head-spa-harmony/</guid>
       <description>Behandlung mit Scalp Analyse, Shampoo, Peeling, Haar Maske, Haar Dampf-Sauna, Kopf-, Nacken- und Dekolleté-Massage, Conditioner und abschließendem Haare trocknen.</description>
     </item>
     
     <item>
       <title>Head Spa Beauty</title>
-      <link>https://bellissima-rastatt.de/angebote/japanese-head-spa/head-spa-beauty/</link>
+      <link>/angebote/japanese-head-spa/head-spa-beauty/</link>
       <pubDate>Sat, 18 May 2024 11:10:36 +0800</pubDate>
       
-      <guid>https://bellissima-rastatt.de/angebote/japanese-head-spa/head-spa-beauty/</guid>
+      <guid>/angebote/japanese-head-spa/head-spa-beauty/</guid>
       <description>Umfangreiche Behandlung mit Scalp Analyse, Shampoo, Peeling, Haar Maske, Haar Dampf-Sauna, Gesichts Behandlung (Reinigung, Peeling, Maske, Wirkstoffampulle, Tagespflege), Kopf-, Gesicht-, Nacken- und Dekolleté-Massage, Conditioner und abschließendem Haare trocknen.</description>
     </item>
     
