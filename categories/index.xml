@@ -2,45 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bellissima</title>
-    <link>https://bialomazur.github.io/categories/</link>
+    <link>https://bellissima-rastatt.de/categories/</link>
     <description>Recent content in Categories on Bellissima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Your Name</copyright>
-    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://bialomazur.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Otilia Bodeanu</copyright>
+    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://bellissima-rastatt.de/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>beauty</title>
-      <link>https://bialomazur.github.io/categories/beauty/</link>
+      <title>beauty-and-more</title>
+      <link>https://bellissima-rastatt.de/categories/beauty-and-more/</link>
       <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>https://bialomazur.github.io/categories/beauty/</guid>
+      <guid>https://bellissima-rastatt.de/categories/beauty-and-more/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Massage</title>
-      <link>https://bialomazur.github.io/categories/massage/</link>
-      <pubDate>Sat, 18 May 2024 11:10:36 +0800</pubDate>
+      <title>Japanese-Head-Spa</title>
+      <link>https://bellissima-rastatt.de/categories/japanese-head-spa/</link>
+      <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>https://bialomazur.github.io/categories/massage/</guid>
+      <guid>https://bellissima-rastatt.de/categories/japanese-head-spa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Massage Japanese-Head-Spa</title>
-      <link>https://bialomazur.github.io/categories/massage-japanese-head-spa/</link>
+      <title>permanent-make-up</title>
+      <link>https://bellissima-rastatt.de/categories/permanent-make-up/</link>
+      <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
+      
+      <guid>https://bellissima-rastatt.de/categories/permanent-make-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>haar-entfernung</title>
+      <link>https://bellissima-rastatt.de/categories/haar-entfernung/</link>
       <pubDate>Sat, 18 Jun 2022 11:10:36 +0800</pubDate>
       
-      <guid>https://bialomazur.github.io/categories/massage-japanese-head-spa/</guid>
+      <guid>https://bellissima-rastatt.de/categories/haar-entfernung/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>skin-care</title>
-      <link>https://bialomazur.github.io/categories/skin-care/</link>
+      <title>apparative-behandlungen</title>
+      <link>https://bellissima-rastatt.de/categories/apparative-behandlungen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bialomazur.github.io/categories/skin-care/</guid>
+      <guid>https://bellissima-rastatt.de/categories/apparative-behandlungen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gesichts-behandlungen</title>
+      <link>https://bellissima-rastatt.de/categories/gesichts-behandlungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bellissima-rastatt.de/categories/gesichts-behandlungen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>green-peel-behandlungen</title>
+      <link>https://bellissima-rastatt.de/categories/green-peel-behandlungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bellissima-rastatt.de/categories/green-peel-behandlungen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hand-und-fusspflege</title>
+      <link>https://bellissima-rastatt.de/categories/hand-und-fusspflege/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bellissima-rastatt.de/categories/hand-und-fusspflege/</guid>
       <description></description>
     </item>
     

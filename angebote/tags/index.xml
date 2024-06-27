@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>/Angebote/Tags on Bellissima</title>
-    <link>https://bialomazur.github.io/angebote/tags/</link>
+    <link>https://bellissima-rastatt.de/angebote/tags/</link>
     <description>Recent content in /Angebote/Tags on Bellissima</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Your Name</copyright><atom:link href="https://bialomazur.github.io/angebote/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Otilia Bodeanu</copyright><atom:link href="https://bellissima-rastatt.de/angebote/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

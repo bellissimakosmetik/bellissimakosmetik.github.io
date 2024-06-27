@@ -2,53 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>beauty-and-more on Bellissima</title>
-    <link>/categories/beauty-and-more/</link>
+    <link>https://bellissima-rastatt.de/categories/beauty-and-more/</link>
     <description>Recent content in beauty-and-more on Bellissima</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="/categories/beauty-and-more/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>Otilia Bodeanu</copyright>
+    <lastBuildDate>Sun, 19 May 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://bellissima-rastatt.de/categories/beauty-and-more/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Augenbrauen</title>
-      <link>/angebote/beauty-and-more/augenbrauen/</link>
+      <link>https://bellissima-rastatt.de/angebote/beauty-and-more/augenbrauen/</link>
       <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>/angebote/beauty-and-more/augenbrauen/</guid>
+      <guid>https://bellissima-rastatt.de/angebote/beauty-and-more/augenbrauen/</guid>
       <description>Perfekt geformte Augenbrauen geben Ihrem Gesicht den idealen Rahmen. Bei Bellissima Kosmetik bieten wir professionelle Services zur Neuformung, Nachzupfen und Färben Ihrer Augenbrauen. Gönnen Sie sich einen gepflegten Look und betonen Sie Ihre natürliche Schönheit. </description>
     </item>
     
     <item>
       <title>Make-Up</title>
-      <link>/angebote/beauty-and-more/makeup/</link>
+      <link>https://bellissima-rastatt.de/angebote/beauty-and-more/makeup/</link>
       <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>/angebote/beauty-and-more/makeup/</guid>
+      <guid>https://bellissima-rastatt.de/angebote/beauty-and-more/makeup/</guid>
       <description>Lassen Sie sich von unseren professionellen Make-Up-Services bei Bellissima Kosmetik verwöhnen. Ob für den Alltag, einen besonderen Abend oder Ihren Hochzeitstag – wir bieten das passende Make-Up für jede Gelegenheit. </description>
     </item>
     
     <item>
       <title>Wimpern färben</title>
-      <link>/angebote/beauty-and-more/wimpern-faerben/</link>
+      <link>https://bellissima-rastatt.de/angebote/beauty-and-more/wimpern-faerben/</link>
       <pubDate>Sun, 19 May 2024 10:00:00 +0800</pubDate>
       
-      <guid>/angebote/beauty-and-more/wimpern-faerben/</guid>
+      <guid>https://bellissima-rastatt.de/angebote/beauty-and-more/wimpern-faerben/</guid>
       <description>Betonen Sie Ihre Augen mit dauerhaft gefärbten Wimpern bei Bellissima Kosmetik. Unsere Wimpernfärbung verleiht Ihren Wimpern eine intensive Farbe, die Ihre Augen strahlend zur Geltung bringt, ohne dass Sie täglich Mascara auftragen müssen. Genießen Sie den langanhaltenden Effekt für einen ausdrucksstarken Blick. </description>
     </item>
     
     <item>
       <title>Gesichts- Hals &amp; Dekolleté Massage</title>
-      <link>/angebote/beauty-and-more/massage/</link>
+      <link>https://bellissima-rastatt.de/angebote/beauty-and-more/massage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/angebote/beauty-and-more/massage/</guid>
+      <guid>https://bellissima-rastatt.de/angebote/beauty-and-more/massage/</guid>
       <description>Entspannende Massage für Gesicht, Hals und Dekolleté, die für Wohlbefinden sorgt und stressbedingte Spannungen lindert.</description>
     </item>
     
     <item>
       <title>Hot-Stone Massage</title>
-      <link>/angebote/beauty-and-more/hot-stone-massage/</link>
+      <link>https://bellissima-rastatt.de/angebote/beauty-and-more/hot-stone-massage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/angebote/beauty-and-more/hot-stone-massage/</guid>
+      <guid>https://bellissima-rastatt.de/angebote/beauty-and-more/hot-stone-massage/</guid>
       <description>Die Hot-Stone Massage bietet eine warme Wohltat für Körper, Geist und Seele, beruhigt Herz und Kreislauf und lindert stressbedingte Symptome.</description>
     </item>
     
